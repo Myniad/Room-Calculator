@@ -22,7 +22,7 @@ if (Area <= 250)
 {
     Console.WriteLine("\nThis is a small sized room");
 } 
-else if (Area > 250 && Perimeter < 650) 
+else if (Area > 250 && Area < 650) 
 {
     Console.WriteLine("\nThis is a medium sized room");
 }
