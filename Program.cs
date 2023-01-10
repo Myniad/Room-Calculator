@@ -18,15 +18,15 @@ Console.WriteLine("\nPerimeter: " + Perimeter);
 Console.WriteLine("\nVolume: " + Volume);
 Console.WriteLine("\nSurface Area:" +surfaceArea);
 
-if (Perimeter <= 250)
+if (Area <= 250)
 {
     Console.WriteLine("\nThis is a small sized room");
 } 
-else if (Perimeter > 250 && Perimeter < 650) 
+else if (Area > 250 && Perimeter < 650) 
 {
     Console.WriteLine("\nThis is a medium sized room");
 }
-else if (Perimeter >= 650)
+else if (Area >= 650)
 {
     Console.WriteLine("\nThis is a large sized room");
 }
